@@ -5,14 +5,14 @@ Claramente, cuando se da la tarea de buscar un hotel, uno como turisma busca com
 
 Ante lo mencionado anteriormente, este proyecto tiene como fin, diseñar un programa de reservación de un hotel aplicando conceptos de programación orientada a objetos en C++. Para ello se tiene pensado la implementación de distintas clases, como ser:
 
-Clase Reserva: Poseerá el nombre del hotel elegido, los días de llegada y salida del hotel, así como el número de huéspedes, número de habitaciones y datos personales. 
+Clase Reserva: Poseerá el código de reserva, número de huéspedes, número de habitaciones y datos personales. 
 
-Clase Hotel: Poseerá la ciudad donde se encuentra, la dirección, correo y número de contacto. 
+Clase Personal: Poseerá los datos de la persona que reservó, es decir, nombre, correo, número de teléfono, id. 
 
-Clase Dato: Poseerá los datos de la persona que reservó, es decir, nombre, correo, número de teléfono, id. 
-
-Clase Habitacion: Poseerá el tipo de habitación que solicitan, el precio y algunas extras como ser la implementación de un frigobar y jacuzzi en la misma habitacion. 
+Clase Habitacion: Poseerá el tipo de habitación que solicitan, el precio y algunas extras como un servicio todo incluido o premium. 
 
 Clase Persona: Poseerá los datos de cada uno de los huéspedes, es decir, nombre, edad, nacionalidad, id o número de pasaporte en caso de ser extranjero. 
+
+Las clases anteriormente mencionadas son algunas de las que se implementarán en el proyecto. 
 
 No cabe duda, que este tipo de proyecto es una muy buena práctica para poder ejercer todos los conocimientos de la programación orientada a objetos, debido a que en dicho programa, se tiene pensado implementar una buena cantidad de clases y relacionarlas entre sí. 
