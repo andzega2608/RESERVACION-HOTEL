@@ -9,7 +9,7 @@ Clase Reserva: Poseerá el código de reserva, número de huéspedes, número de
 
 Clase Personal: Poseerá los datos de la persona que reservó, es decir, correo y número de teléfono. 
 
-Clase Habitación: Poseerá el tipo de habitación que solicitan, el precio y algunas extras como un servicio todo incluido o premium. 
+Clase Habitación: Poseerá el tipo de habitación que solicitan, el precio y algunas extras como un servicio deluxe o simple. 
 
 Clase Huésped: Poseerá los datos de cada uno de los huéspedes, es decir, nombre, edad, nacionalidad, id o número de pasaporte en caso de ser extranjero. 
 
