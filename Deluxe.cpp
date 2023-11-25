@@ -47,4 +47,3 @@ bool Deluxe::getVistaMar(){
 string Deluxe::getComida(){
     return comida;
 }
-
