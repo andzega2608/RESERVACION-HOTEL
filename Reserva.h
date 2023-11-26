@@ -24,7 +24,6 @@ class Reserva{
         Reserva();
         Reserva(string, string);
         Reserva(string, string, string, int);
-        Reserva(string, string, string);
         Reserva(float, bool, bool, string);
         Reserva(float, bool);
         double getCodigo();
