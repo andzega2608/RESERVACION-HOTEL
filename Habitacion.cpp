@@ -8,8 +8,6 @@ Habitacion::Habitacion() {
 //Constructor que establece el precio de la habitacion y generar un numero al azar para el numero de habitacion
 Habitacion::Habitacion(float _precio) {
     precio = _precio;
-    srand(time(NULL));
-    numHabitacion = rand() % 900 + 100; //generamos numero de habitacion al azar
 }
 // Setter para variable precio
 void Habitacion::setPrecio(float _precio){
@@ -21,5 +19,7 @@ float Habitacion::getPrecio() {
 }
 // Getter para variable habitacion
 int Habitacion::getNumHabitacion() {
+    srand(time(NULL));
+    numHabitacion = rand() % 900 + 100; //generamos numero de habitacion al azar
     return numHabitacion;
 }
